@@ -1,0 +1,104 @@
+body{
+    background-image: radial-gradient(circle at top right, rgb(49, 157, 235) 0%, rgb(49, 157, 235) 13%
+    ,rgb(76, 166, 234) 13%, rgb(76, 166, 234) 23%,rgb(103, 176, 232) 23%,
+     rgb(103, 176, 232) 33%,rgb(130, 185, 231) 33%, rgb(130, 185, 231) 46%,rgb(156, 194, 230) 46%,
+      rgb(156, 194, 230) 48%,rgb(183, 203, 229) 48%, rgb(183, 203, 229) 63%,rgb(210, 213, 227) 63%, 
+      rgb(210, 213, 227) 83%,rgb(237, 222, 226) 83%, rgb(237, 222, 226) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;body{
+        background-image: radial-gradient(circle at top right, rgb(49, 157, 235) 0%, rgb(49, 157, 235) 13%
+        ,rgb(76, 166, 234) 13%, rgb(76, 166, 234) 23%,rgb(103, 176, 232) 23%,
+         rgb(103, 176, 232) 33%,rgb(130, 185, 231) 33%, rgb(130, 185, 231) 46%,rgb(156, 194, 230) 46%,
+          rgb(156, 194, 230) 48%,rgb(183, 203, 229) 48%, rgb(183, 203, 229) 63%,rgb(210, 213, 227) 63%, 
+          rgb(210, 213, 227) 83%,rgb(237, 222, 226) 83%, rgb(237, 222, 226) 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+    }
+    *{
+        font-family: 'Lato', sans-serif;
+        font-family: 'open Sans', sans-serif;
+        font-family: 'PT Sans', sans-serif;
+        box-sizing: border-box;
+    }
+    
+    form{
+        width: 600px;
+        border: 2px solid black;
+        padding: 6rem;
+        background-color: #f6f9fab0;
+        border: none;
+        border-radius: 20px;
+        color: rgb(0, 4, 7);
+    }
+    h1{
+        display: block;
+        border:  2px solid black;
+        width: 95%;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    label {
+        color: rgb(5, 5, 5);
+        font-size: 18px;
+        padding: 10px;
+        font-weight: 300;
+    }
+    input{
+        display: block;
+        border: 2px black;
+        width: 95%;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    
+    }
+    
+    
+    box-sizing: border-box;
+}
+
+form{
+    width: 600px;
+    border: 2px solid black;
+    padding: 6rem;
+    background-color: #f6f9fab0;
+    border: none;
+    border-radius: 20px;
+    color: rgb(0, 4, 7);
+}
+h1{
+    display: block;
+    border:  2px solid black;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+label {
+    color: rgb(5, 5, 5);
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 300;
+}
+input{
+    display: block;
+    border: 2px black;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
