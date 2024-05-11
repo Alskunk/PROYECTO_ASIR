@@ -97,7 +97,7 @@ $fila = mysqli_fetch_assoc($resultado);
                 if (mysqli_errno($conexion)==0){
                 echo "<div class='bloque1'>";
                 echo "<div class='contenedor1'>";       
-                echo("Registro AÑADIDO");
+                echo("REGISTRO AÑADIDO");
                 echo "</div>";
                 echo "</div>";
                 $consulta = "select * from USUARIOS where DNI='".$DNI."'"; 
