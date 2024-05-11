@@ -89,15 +89,8 @@ $med_id=$fila6['medicacion_id'];
  <section class="container">
         <?php
         
-        if ($fila3['Nombre'] != $Nombre and $fila3['Primer_apellido'] != $P_Apellido) {
-        echo "<div class='bloque1'>";
-            echo "<div class='contenedor1'>";
-            
-            echo "El usuario no existe";
-            echo "</div>";
-        echo "</div>";
-        }
-        elseif (isset($med_id) ) {
+     
+        if (isset($med_id) ) {
                 
                         $consulta = "SELECT U.Nombre, U.Primer_apellido, M.medicacion_id, M.usuario_id, M.Medicamento, M.stock
                         FROM USUARIOS U JOIN MEDICAMENTO M ON U.usuario_id = M.usuario_id WHERE U.Nombre = '$Nombre' 
@@ -231,7 +224,7 @@ $med_id=$fila6['medicacion_id'];
                 echo "</table>";
                 echo "<div class='bloque1'>";
                 echo "<div class='contenedor1'>";       
-                echo("Registro AÑADIDO");
+                echo("REGISTRO AÑADIDO");
                 echo "</div>";
                 echo "</div>";
 
@@ -246,7 +239,7 @@ $med_id=$fila6['medicacion_id'];
             if (mysqli_errno($conexion)==0){
                 echo "<div class='bloque1'>";
                 echo "<div class='contenedor1'>";       
-                echo("Registro AÑADIDO");
+                echo("REGISTRO AÑADIDO");
                 echo "</div>";
                 echo "</div>";
                 $consulta = "SELECT U.Nombre, U.Primer_apellido, M.medicacion_id, M.usuario_id, M.Medicamento, M.stock
