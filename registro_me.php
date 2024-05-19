@@ -109,7 +109,7 @@ $Observaciones=$_POST['observaciones'];
             mysqli_close($conexion);
         ?>
                 
-                
+                <a href="https://www.alskunk.es/registromedicacion.php"><button>Volver</button></a>         
                
         </section>
                 
